@@ -1,0 +1,125 @@
+/* 清除内外边距 */
+*{
+    margin: 0;
+    padding: 0;
+    /* 内减模式 */
+    box-sizing: border-box;
+}
+/* 清除表格前面的点 */
+li{
+    list-style: none;
+}
+/* 清除超链接样式 */
+a{
+    text-decoration: none;
+    color: #000;
+}
+/* 设置清除浮动 */
+button{
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+/* 取消聚焦时出现的边框 */
+input:focus{
+    outline: none;
+}
+img{
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+
+/* body{
+    background-image: url(./images/bgi.jpg);
+    background-size: contain;
+    background-repeat:no-repeat;
+} */
+.bgi{
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 150vw;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 12.8vw;
+    display: flex;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, .5);
+}
+header .iconfont{
+    font-size: 6.4vw;
+    color: #fff;
+}
+.headmenu{
+    float: left;
+    width: 6.4vw;
+    height: 6.4vw;
+    margin: 3.2vw 4.2666666667vw;
+}
+.headlogo{
+    width: 40.8vw;
+    height: 9.33333333vw;
+    margin: 1.73333333vw auto;
+}
+.headtx{
+    float: right;
+    width: 6.4vw;
+    height: 6.4vw;
+    margin: 3.2vw 4.2666666667vw;
+}
+
+
+
+.mainbody1{
+    width: 100%;
+    height: 140vw;
+    line-height: 140vw;
+}
+.slogan{
+    width: 80vw;
+    margin: 50vw auto;
+
+}
+
+.mainbody2{
+    position: relative;
+    z-index: 9;
+    padding: 0 4.3vw;
+    overflow: hidden;
+    /* margin-top: 128vw; */
+    border-radius: 6.4vw 6.4vw 0 0;
+    background-color: #f5f5f5;
+}
+.bodytitle{
+    margin-top: 4.3vw;
+    margin-bottom: 3vw;
+    font-size: 5.3vw;
+}
+.box{
+    display: flex;
+    height: 34vw;
+    margin-bottom: 2vw;
+    padding: 3vw;
+    background-color: #fff;
+    border-radius: 3vw;
+    align-items: center;
+    /* line-height: 28vw; */
+}
+.boximg{
+    width: 40vw;
+    height: 24vw;
+    border-radius: 3vw;
+    overflow: hidden;
+}
+.bodytext{
+    flex: 1;
+    padding-left: 3vw;
+    line-height: 6.2vw;
+    font-size: 4.6vw;
+}
